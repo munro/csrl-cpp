@@ -1,0 +1,1 @@
+g++ BulletEffect.cpp  Character.cpp  Console.cpp  Entity.cpp  Graphics.cpp  Gun.cpp  Math.cpp  Weapon.cpp  WeaponFactory.cpp  main.cpp -lncurses -o csrl

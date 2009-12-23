@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="csrl" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/csrl_debug" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="bin/" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/csrl" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="bin/" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-march=athlon64" />
+					<Add option="-O3" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wmain" />
+			<Add option="-pedantic" />
+			<Add option="-Wall" />
+			<Add option="-ansi" />
+			<Add option="-I." />
+		</Compiler>
+		<Linker>
+			<Add option="-lncurses" />
+		</Linker>
+		<Unit filename="Engine/CSRL.cpp" />
+		<Unit filename="Engine/CSRL.h" />
+		<Unit filename="Engine/Graphics.cpp" />
+		<Unit filename="Engine/Graphics.h" />
+		<Unit filename="Engine/Math.cpp" />
+		<Unit filename="Engine/Math.h" />
+		<Unit filename="Engine/main.cpp" />
+		<Unit filename="Entities/Character.cpp" />
+		<Unit filename="Entities/Character.h" />
+		<Unit filename="Entities/Console.cpp" />
+		<Unit filename="Entities/Console.h" />
+		<Unit filename="Entities/Entity.cpp" />
+		<Unit filename="Entities/Entity.h" />
+		<Unit filename="Entities/Object.cpp" />
+		<Unit filename="Entities/Object.h" />
+		<Unit filename="Entities/Player.h" />
+		<Unit filename="Network/Network.cpp" />
+		<Unit filename="Network/Network.h" />
+		<Unit filename="Network/Packet.cpp" />
+		<Unit filename="Network/Packet.h" />
+		<Unit filename="Network/Socket.cpp" />
+		<Unit filename="Network/Socket.h" />
+		<Unit filename="Weapons/Bullet.cpp" />
+		<Unit filename="Weapons/Bullet.h" />
+		<Unit filename="Weapons/BulletEffect.cpp" />
+		<Unit filename="Weapons/BulletEffect.h" />
+		<Unit filename="Weapons/Gun.cpp" />
+		<Unit filename="Weapons/Gun.h" />
+		<Unit filename="Weapons/Weapon.cpp" />
+		<Unit filename="Weapons/Weapon.h" />
+		<Unit filename="Weapons/WeaponFactory.cpp" />
+		<Unit filename="Weapons/WeaponFactory.h" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

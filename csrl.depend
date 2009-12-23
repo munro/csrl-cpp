@@ -1,0 +1,301 @@
+# depslib dependency file v1.0
+1260302253 source:/home/ryan/Projects/csrl/main.cpp
+	"CSRL.h"
+
+1260318494 /home/ryan/Projects/csrl/CSRL.h
+	<list>
+
+1260512498 source:/home/ryan/Projects/csrl/Entity.cpp
+	"Entity.h"
+
+1260303627 /home/ryan/Projects/csrl/Entity.h
+
+1260512320 source:/home/ryan/Projects/csrl/Character.cpp
+	<ncurses.h>
+	"Character.h"
+	"Weapon.h"
+	"WeaponFactory.h"
+
+1260317676 /home/ryan/Projects/csrl/Character.h
+	<string>
+	"Object.h"
+
+1260512201 source:/home/ryan/Projects/csrl/Weapon.cpp
+	<ncurses.h>
+	"CSRL.h"
+	"Weapon.h"
+	"Character.h"
+
+1260511963 /home/ryan/Projects/csrl/Weapon.h
+	<string>
+	"Object.h"
+
+1260512763 source:/home/ryan/Projects/csrl/BulletEffect.cpp
+	<cmath>
+	<ncurses.h>
+	"BulletEffect.h"
+	"Graphics.h"
+
+1260303702 /home/ryan/Projects/csrl/BulletEffect.h
+	"Entity.h"
+
+1260305639 /home/ryan/Projects/csrl/Gun.h
+	"Weapon.h"
+
+1260512844 source:/home/ryan/Projects/csrl/Gun.cpp
+	<ncurses.h>
+	<cstdlib>
+	"CSRL.h"
+	"Gun.h"
+	"Bullet.h"
+	"BulletEffect.h"
+	"Character.h"
+
+1260148416 /home/ryan/Projects/csrl/WeaponFactory.h
+	"Weapon.h"
+
+1260512352 source:/home/ryan/Projects/csrl/WeaponFactory.cpp
+	"WeaponFactory.h"
+	"Gun.h"
+
+1260512593 source:/home/ryan/Projects/csrl/Console.cpp
+	<ncurses.h>
+	"CSRL.h"
+	"Console.h"
+
+1260303657 /home/ryan/Projects/csrl/Console.h
+	<string>
+	<list>
+	"Entity.h"
+
+1260512401 source:/home/ryan/Projects/csrl/Math.cpp
+	<cstdlib>
+	<cmath>
+	"Math.h"
+
+1260164972 /home/ryan/Projects/csrl/Math.h
+
+1260304601 source:/home/ryan/Projects/csrl/Graphics.cpp
+	<ncurses.h>
+	<cstdlib>
+	<cmath>
+	"Graphics.h"
+
+1260304615 /home/ryan/Projects/csrl/Graphics.h
+	<string>
+
+1260512682 source:/home/ryan/Projects/csrl/Bullet.cpp
+	"Bullet.h"
+	"Character.h"
+	"CSRL.h"
+	"Math.h"
+	<cmath>
+
+1260302549 /home/ryan/Projects/csrl/Bullet.h
+	"Entity.h"
+
+1260773050 source:/home/ryan/Projects/csrl/CSRL.cpp
+	<ncurses.h>
+	<sys/time.h>
+	<unistd.h>
+	"CSRL.h"
+	"Graphics.h"
+	"Math.h"
+	"Console.h"
+	"Character.h"
+	"Weapon.h"
+	"Network.h"
+
+1260317752 /home/ryan/Projects/csrl/Object.h
+	<string>
+	"Entity.h"
+
+1260512380 source:/home/ryan/Projects/csrl/Object.cpp
+	"Object.h"
+
+1260776370 source:/home/ryan/Projects/csrl/Network.cpp
+	"Network.h"
+	"CSRL.h"
+	"Console.h"
+	<stdio.h>
+	<sys/socket.h>
+	<arpa/inet.h>
+	<cstdio>
+	<stdlib.h>
+	<string.h>
+	<unistd.h>
+	<sstream>
+	<iostream>
+	<fcntl.h>
+
+1260776319 /home/ryan/Projects/csrl/Network.h
+	<list>
+	<netinet/in.h>
+	"Entity.h"
+
+1260776473 source:/home/ryan/Projects/csrl/Packet.cpp
+	"Packet.h"
+	<cstring>
+
+1260776588 /home/ryan/Projects/csrl/Packet.h
+	<arpa/inet.h>
+
+1260776532 source:/home/ryan/Projects/csrl/Socket.cpp
+	<fcntl.h>
+	<unistd.h>
+	"Socket.h"
+	"Packet.h"
+
+1260776328 /home/ryan/Projects/csrl/Socket.h
+	<netinet/in.h>
+	"Entity.h"
+
+1261583517 source:/home/kim/Desktop/csrl/Bullet.cpp
+	"Bullet.h"
+	"Character.h"
+	"CSRL.h"
+	"Math.h"
+	<cmath>
+
+1261583512 /home/kim/Desktop/csrl/Bullet.h
+	"Entity.h"
+
+1261583512 /home/kim/Desktop/csrl/Entity.h
+
+1261583522 /home/kim/Desktop/csrl/Character.h
+	<string>
+	"Object.h"
+
+1261583521 /home/kim/Desktop/csrl/Object.h
+	<string>
+	"Entity.h"
+
+1261583488 /home/kim/Desktop/csrl/CSRL.h
+	<list>
+
+1261583486 /home/kim/Desktop/csrl/Math.h
+
+1261583522 source:/home/kim/Desktop/csrl/BulletEffect.cpp
+	<cmath>
+	<ncurses.h>
+	"BulletEffect.h"
+	"Graphics.h"
+
+1261583488 /home/kim/Desktop/csrl/BulletEffect.h
+	"Entity.h"
+
+1261583517 /home/kim/Desktop/csrl/Graphics.h
+	<string>
+
+1261583522 source:/home/kim/Desktop/csrl/Character.cpp
+	<ncurses.h>
+	"Character.h"
+	"Weapon.h"
+	"WeaponFactory.h"
+
+1261583517 /home/kim/Desktop/csrl/Weapon.h
+	<string>
+	"Object.h"
+
+1261583486 /home/kim/Desktop/csrl/WeaponFactory.h
+	"Weapon.h"
+
+1261583519 source:/home/kim/Desktop/csrl/Console.cpp
+	<ncurses.h>
+	"CSRL.h"
+	"Console.h"
+
+1261583512 /home/kim/Desktop/csrl/Console.h
+	<string>
+	<list>
+	"Entity.h"
+
+1261583489 source:/home/kim/Desktop/csrl/Entity.cpp
+	"Entity.h"
+
+1261583519 source:/home/kim/Desktop/csrl/Graphics.cpp
+	<ncurses.h>
+	<cstdlib>
+	<cmath>
+	"Graphics.h"
+
+1261583489 source:/home/kim/Desktop/csrl/Gun.cpp
+	<ncurses.h>
+	<cstdlib>
+	"CSRL.h"
+	"Gun.h"
+	"Bullet.h"
+	"BulletEffect.h"
+	"Character.h"
+
+1261583519 /home/kim/Desktop/csrl/Gun.h
+	"Weapon.h"
+
+1261583488 source:/home/kim/Desktop/csrl/Math.cpp
+	<cstdlib>
+	<cmath>
+	"Math.h"
+
+1261620051 source:/home/kim/Desktop/csrl/Network.cpp
+	"Network.h"
+	"CSRL.h"
+	"Console.h"
+	<stdio.h>
+	<cstdio>
+	<stdlib.h>
+	<string.h>
+	<sstream>
+	<iostream>
+	<fcntl.h>
+
+1261619675 /home/kim/Desktop/csrl/Network.h
+	<list>
+	<netinet/in.h>
+	"Entity.h"
+	"Socket.h"
+
+1261583486 source:/home/kim/Desktop/csrl/Object.cpp
+	"Object.h"
+
+1261583522 source:/home/kim/Desktop/csrl/Packet.cpp
+	"Packet.h"
+	<cstring>
+
+1261583488 /home/kim/Desktop/csrl/Packet.h
+	<arpa/inet.h>
+
+1261583518 source:/home/kim/Desktop/csrl/Socket.cpp
+	<fcntl.h>
+	<unistd.h>
+	"Socket.h"
+	"Packet.h"
+
+1261620091 /home/kim/Desktop/csrl/Socket.h
+	<netinet/in.h>
+	"Entity.h"
+
+1261583485 source:/home/kim/Desktop/csrl/Weapon.cpp
+	<ncurses.h>
+	"CSRL.h"
+	"Weapon.h"
+	"Character.h"
+
+1261583511 source:/home/kim/Desktop/csrl/WeaponFactory.cpp
+	"WeaponFactory.h"
+	"Gun.h"
+
+1261583512 source:/home/kim/Desktop/csrl/main.cpp
+	"CSRL.h"
+
+1261619310 source:/home/kim/Desktop/csrl/CSRL.cpp
+	<ncurses.h>
+	<sys/time.h>
+	<unistd.h>
+	"CSRL.h"
+	"Graphics.h"
+	"Math.h"
+	"Console.h"
+	"Character.h"
+	"Weapon.h"
+	"Network.h"
+
